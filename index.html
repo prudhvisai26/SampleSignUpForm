@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="form-image">
+        <img src="./pic.jpg" alt="I don't know about the image." />
+      </section>
+      <section class="form-container">
+        <header>
+          <h2>
+            This is not a real online service! You know you need something<br />
+            like this in your life to help you realize your deepest dreams.<br />
+            Sign up now to get started.
+          </h2>
+          <p>You know you want to.</p>
+        </header>
+
+        <form action="#" method="post">
+          <header>Let's do this!</header>
+          <div class="form-controls">
+            <div class="form-flex">
+              <label for="firstname">FIRST NAME</label>
+              <input
+                type="text"
+                id="firstname"
+                class="firstname"
+                placeholder="Smith"
+                required
+              />
+            </div>
+            <div class="form-flex">
+              <label for="lastname">LAST NAME</label>
+              <input
+                type="text"
+                id="lastname"
+                class="lastname"
+                placeholder="Dave"
+                required
+              />
+            </div>
+            <div class="form-flex">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                class="email"
+                placeholder="smith.dave@gmail.com"
+                required
+              />
+            </div>
+            <div class="form-flex">
+              <label for="phonenumber">PHONE NUMBER</label>
+              <input
+                type="text"
+                id="phonenumber"
+                class="phonenumber"
+                placeholder="+91 9378567543"
+                min="10"
+                max="13"
+                required
+              />
+            </div>
+            <div class="form-flex">
+              <label for="password">PASSWORD</label>
+              <input
+                type="text"
+                id="password"
+                class="password"
+                min="4"
+                required
+              />
+            </div>
+            <div class="form-flex">
+              <label for="confirmpassword">CONFIRMPASSWORD</label>
+              <input
+                type="text"
+                id="confirmpassword"
+                class="confirmpassword"
+                min="4"
+                required
+              />
+            </div>
+          </div>
+        </form>
+        <button type="submit" value="Create Account">Create Account</button>
+        <div class="login">Already have an account?<a href="">Log in</a></div>
+      </section>
+    </main>
+  </body>
+</html>
